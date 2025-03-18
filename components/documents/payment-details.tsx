@@ -21,7 +21,7 @@ export function PaymentDetails({ paymentInstructions, currency }: PaymentDetails
     bank_name,
     account_name,
     account_number,
-    bank_code,
+    bank_address,
     branch_name,
     swift_code,
     mpesa,
@@ -66,10 +66,10 @@ export function PaymentDetails({ paymentInstructions, currency }: PaymentDetails
                   <p className="font-medium">{swift_code}</p>
                 </>
               )}
-              {bank_code && (
+              {bank_address && (
                 <>
-                  <p className="text-gray-600">Bank Code:</p>
-                  <p className="font-medium">{bank_code}</p>
+                  <p className="text-gray-600">Bank Address:</p>
+                  <p className="font-medium">{bank_address}</p>
                 </>
               )}
               {branch_name && (
