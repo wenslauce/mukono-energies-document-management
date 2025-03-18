@@ -20,12 +20,11 @@ type DocumentItem = Database["public"]["Tables"]["document_items"]["Row"]
 
 // Default payment instructions to use across all templates
 export const DEFAULT_PAYMENT_INSTRUCTIONS = {
-  account_name: "Mukono Energies Ltd",
-  account_number: "0123456789",
-  bank_name: "Barclays Bank",
-  bank_code: "BARC",
+  account_name: "Mukono Energies Limited",
+  account_number: "6008966891",
+  bank_name: "Absa Bank (U) Limited",
   swift_code: "BARCUGKX",
-  branch_name: "Kampala Branch",
+  branch_name: "LUGOGO",
   payment_terms: "Payment due within 30 days"
 }
 
