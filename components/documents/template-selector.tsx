@@ -25,6 +25,7 @@ export const DEFAULT_PAYMENT_INSTRUCTIONS = {
   bank_name: "Absa Bank (U) Limited",
   swift_code: "BARCUGKX",
   branch_name: "LUGOGO",
+  bank_address: "Plot 2, Hannington Road, Kampala, Uganda"
   payment_terms: "Payment due within 30 days"
 }
 
